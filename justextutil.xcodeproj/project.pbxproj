@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B159501A8642E0001B463D /* libJusText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B1594F1A8642DF001B463D /* libJusText.a */; };
+		23D51AE61A7E6D2800EE6877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D51AE51A7E6D2800EE6877 /* main.m */; };
+		23D51AF11A7E6E0200EE6877 /* libpcre_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D51AEE1A7E6E0200EE6877 /* libpcre_static.a */; };
+		23D51AF21A7E6E0200EE6877 /* libpcrecpp_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D51AEF1A7E6E0200EE6877 /* libpcrecpp_static.a */; };
+		23D51AF31A7E6E0200EE6877 /* libpcreposix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D51AF01A7E6E0200EE6877 /* libpcreposix.a */; };
+		23D51B021A7E732D00EE6877 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D51B011A7E732D00EE6877 /* libstdc++.dylib */; };
+		23D51B041A7E734100EE6877 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D51B031A7E734100EE6877 /* libc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23D51AE01A7E6D2800EE6877 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23B159441A8633E3001B463D /* justext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = justext.h; sourceTree = "<group>"; };
+		23B159451A8633E3001B463D /* parseFSM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseFSM.h; sourceTree = "<group>"; };
+		23B159461A8633E3001B463D /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		23B159471A8633E3001B463D /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		23B159481A863458001B463D /* ParserDom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserDom.h; path = "../../../../Dev Monologue/JusText/JusText/JusText/html/ParserDom.h"; sourceTree = "<group>"; };
+		23B159491A863458001B463D /* ParserSax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserSax.h; path = "../../../../Dev Monologue/JusText/JusText/JusText/html/ParserSax.h"; sourceTree = "<group>"; };
+		23B1594A1A86375D001B463D /* English.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = English.txt; path = "../../../../Dev Monologue/JusText/JusText/JusText/stoplists/English.txt"; sourceTree = "<group>"; };
+		23B1594F1A8642DF001B463D /* libJusText.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJusText.a; path = "../../../../Dev Monologue/JusText/JusText/JusText/libJusText.a"; sourceTree = "<group>"; };
+		23D51AE21A7E6D2800EE6877 /* justextutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = justextutil; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D51AE51A7E6D2800EE6877 /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
+		23D51AEE1A7E6E0200EE6877 /* libpcre_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre_static.a; path = ../../../../../Downloads/pcre_lib/x86/lib/libpcre_static.a; sourceTree = "<group>"; };
+		23D51AEF1A7E6E0200EE6877 /* libpcrecpp_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcrecpp_static.a; path = ../../../../../Downloads/pcre_lib/x86/lib/libpcrecpp_static.a; sourceTree = "<group>"; };
+		23D51AF01A7E6E0200EE6877 /* libpcreposix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcreposix.a; path = ../../../../../Downloads/pcre_lib/x86/lib/libpcreposix.a; sourceTree = "<group>"; };
+		23D51B011A7E732D00EE6877 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		23D51B031A7E734100EE6877 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		23D51B051A7E743E00EE6877 /* TextExractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextExractor.h; sourceTree = "<group>"; };
+		23D51B061A7E747F00EE6877 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		23D51B071A7E747F00EE6877 /* pcre_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_scanner.h; sourceTree = "<group>"; };
+		23D51B081A7E747F00EE6877 /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_stringpiece.h; sourceTree = "<group>"; };
+		23D51B091A7E747F00EE6877 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		23D51B0A1A7E747F00EE6877 /* pcrecpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpp.h; sourceTree = "<group>"; };
+		23D51B0B1A7E747F00EE6877 /* pcrecpparg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpparg.h; sourceTree = "<group>"; };
+		23D51B0C1A7E747F00EE6877 /* pcreposix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcreposix.h; sourceTree = "<group>"; };
+		23D51B0D1A7E747F00EE6877 /* ucp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D51ADF1A7E6D2800EE6877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D51B041A7E734100EE6877 /* libc++.dylib in Frameworks */,
+				23D51B021A7E732D00EE6877 /* libstdc++.dylib in Frameworks */,
+				23D51AF31A7E6E0200EE6877 /* libpcreposix.a in Frameworks */,
+				23B159501A8642E0001B463D /* libJusText.a in Frameworks */,
+				23D51AF11A7E6E0200EE6877 /* libpcre_static.a in Frameworks */,
+				23D51AF21A7E6E0200EE6877 /* libpcrecpp_static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D51AD91A7E6D2800EE6877 = {
+			isa = PBXGroup;
+			children = (
+				23D51B031A7E734100EE6877 /* libc++.dylib */,
+				23D51B011A7E732D00EE6877 /* libstdc++.dylib */,
+				23D51AE41A7E6D2800EE6877 /* justextutil */,
+				23D51AE31A7E6D2800EE6877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D51AE31A7E6D2800EE6877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D51AE21A7E6D2800EE6877 /* justextutil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D51AE41A7E6D2800EE6877 /* justextutil */ = {
+			isa = PBXGroup;
+			children = (
+				23D51AEC1A7E6D7400EE6877 /* libraries */,
+				23D51AE51A7E6D2800EE6877 /* main.m */,
+			);
+			path = justextutil;
+			sourceTree = "<group>";
+		};
+		23D51AEC1A7E6D7400EE6877 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				23B1594F1A8642DF001B463D /* libJusText.a */,
+				23D51AEE1A7E6E0200EE6877 /* libpcre_static.a */,
+				23D51AEF1A7E6E0200EE6877 /* libpcrecpp_static.a */,
+				23D51AF01A7E6E0200EE6877 /* libpcreposix.a */,
+				23D51AED1A7E6DDB00EE6877 /* Headers */,
+			);
+			name = libraries;
+			sourceTree = "<group>";
+		};
+		23D51AED1A7E6DDB00EE6877 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				23B1594A1A86375D001B463D /* English.txt */,
+				23B159481A863458001B463D /* ParserDom.h */,
+				23B159491A863458001B463D /* ParserSax.h */,
+				23B159441A8633E3001B463D /* justext.h */,
+				23B159451A8633E3001B463D /* parseFSM.h */,
+				23B159461A8633E3001B463D /* tools.h */,
+				23B159471A8633E3001B463D /* utils.h */,
+				23D51B061A7E747F00EE6877 /* config.h */,
+				23D51B071A7E747F00EE6877 /* pcre_scanner.h */,
+				23D51B081A7E747F00EE6877 /* pcre_stringpiece.h */,
+				23D51B091A7E747F00EE6877 /* pcre.h */,
+				23D51B0A1A7E747F00EE6877 /* pcrecpp.h */,
+				23D51B0B1A7E747F00EE6877 /* pcrecpparg.h */,
+				23D51B0C1A7E747F00EE6877 /* pcreposix.h */,
+				23D51B0D1A7E747F00EE6877 /* ucp.h */,
+				23D51B051A7E743E00EE6877 /* TextExractor.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D51AE11A7E6D2800EE6877 /* justextutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D51AE91A7E6D2800EE6877 /* Build configuration list for PBXNativeTarget "justextutil" */;
+			buildPhases = (
+				23D51ADE1A7E6D2800EE6877 /* Sources */,
+				23D51ADF1A7E6D2800EE6877 /* Frameworks */,
+				23D51AE01A7E6D2800EE6877 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = justextutil;
+			productName = justextutil;
+			productReference = 23D51AE21A7E6D2800EE6877 /* justextutil */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D51ADA1A7E6D2800EE6877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nikola Sobadjiev";
+				TargetAttributes = {
+					23D51AE11A7E6D2800EE6877 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 23D51ADD1A7E6D2800EE6877 /* Build configuration list for PBXProject "justextutil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23D51AD91A7E6D2800EE6877;
+			productRefGroup = 23D51AE31A7E6D2800EE6877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D51AE11A7E6D2800EE6877 /* justextutil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D51ADE1A7E6D2800EE6877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D51AE61A7E6D2800EE6877 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23D51AE71A7E6D2800EE6877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23D51AE81A7E6D2800EE6877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23D51AEA1A7E6D2800EE6877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nikolasobadjiev/Projects/openSource/,
+					/Users/nikolasobadjiev/Downloads/pcre_lib/x86/lib/,
+					"$(PROJECT_DIR)/justextutil",
+					/Users/nikolasobadjiev/Projects/Dev,
+					Monologue/JusText/JusText/JusText,
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23D51AEB1A7E6D2800EE6877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nikolasobadjiev/Projects/openSource/,
+					/Users/nikolasobadjiev/Downloads/pcre_lib/x86/lib/,
+					"$(PROJECT_DIR)/justextutil",
+					/Users/nikolasobadjiev/Projects/Dev,
+					Monologue/JusText/JusText/JusText,
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D51ADD1A7E6D2800EE6877 /* Build configuration list for PBXProject "justextutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D51AE71A7E6D2800EE6877 /* Debug */,
+				23D51AE81A7E6D2800EE6877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D51AE91A7E6D2800EE6877 /* Build configuration list for PBXNativeTarget "justextutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D51AEA1A7E6D2800EE6877 /* Debug */,
+				23D51AEB1A7E6D2800EE6877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D51ADA1A7E6D2800EE6877 /* Project object */;
+}
